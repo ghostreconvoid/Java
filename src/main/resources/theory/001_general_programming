@@ -1,0 +1,66 @@
+001.    Informatik  =   Information + Mathematik    =   computer science
+002.    Algorithmus =   ein Verfahren zur Verarbeitung von Daten mit einer praezisen, endlichen Beschreibung
+                        unter Verwendung effektiver, elementarer Verarbeitungsschritte.
+            (i) Terminierung    =   Ein Algorithmus heisst terminierend, wenn er bei jeder erlaubten Eingabe
+                                    von Parameterwerten nach endlich vielen Schritten beendet ist;
+                                    andererfalls spricht man von einem nicht-terminierenden Algorithmus.
+            (ii)    Determiniertheit    =   Ein Algorithmus heisst determiniert, wenn er bei denselben zulaessigen
+                                            Eingabewerten stets dasselbe Ergebnis liefert;
+                                            andererfalls heisst er nicht-determiniert.
+            (iii)   Determinismus   =   Ein Algorithmus heisst deterministisch, wenn fuer alle Eingabedaten
+                                        die Reihenfolge aller auszufuehrenden Schritte eindeutig bestimmt ist;
+                                        andererfalls heisst er nicht-deterministisch.
+            (iv)    Partielle Korrektheit   =   Ein Algorithmus heisst partiell korrekt, wenn fuer alle gueltigen
+                                                Eingaben das Resultat der Spezifikation/Nachbedingung des
+                                                Algorithmus entspricht.
+            (v)     (Totale) Korrektheit    =   Ein Algorithmus heisst (total) korrekt, wenn der Algorithmus
+                                                partiell korrekt ist, und fuer alle gueltigen Eingaben terminiert.
+003.    Daten       =   Die Repraesentation und der Wertbereich von Eingabe und Ergebnissen muessen eindeutig
+                        definiert sein.
+004.    Datentypen  =   Datentypen in Programmiersprachen dienen zur Definition von zulaessigen Ein- und
+                        Ausgabewerten.
+005.    Pseudocode  =   natuerlichesprachliche und zugleich strukturierte Beschreibung
+006.    Programmiersprache  =   eine formale Sprache, d.h., sie ist exakt durch strikte Regeln (Syntax und Semantik)
+                                definiert.
+007.    Programm    =   die Beschreibung eines Algorithmus' in einer Programmiersprache
+008.    Syntax  =   Syntax regelt die Form von Sprachelementen und die Struktur ihrer Zusammensetzung.
+                    Definiert durch formale Grammatik.
+009.    Semantik    =   Semantik regelt die Bedeutung von (syntaktisch korrekten) Sprachelementen.
+010.    Maschinencode   =   System von Instruktionen und Daten, die der Prozessor eines Computers direkt
+                            ausfuehren kann.
+011.    Assembler   =   Programmiersprache, welche die Maschinensprache einer spezifischen Prozessorarchitektur in
+                        einer fuer den Menschen lesbaren Form repraesentiert.
+012.    Hoehere Programmiersprachen (Beispiele) =   Java, Python, C, Pascal, Fortran, Algol, ...
+013.    =========================================================
+        Computer      <->       Uebersetzer     <->     Menschen
+        =========================================================
+        Maschinencode           (i) Compiler            Hoehere Programmiersprachen
+                                (ii) Interpreter
+        =========================================================
+014.    Compiler    =   einmaliges Uebersetzen des Programmcodes, abhaengig von der Plattform
+                        (C, C++, Pascal, Fortran, ...)
+                        (HelloWorld.c   ->  HelloWorld.exe)
+015.    Interpreter =   wiederholtes Uebersetzen des Programms zur Laufzeit, plattformunabhaengig
+                        (Python, Perl, PHP, Ruby, Basic, ...)
+                        (
+                         >>> print("Hello, World!")
+                         Hello, World!
+                         >>>
+                        )
+016.    Bytecode-Sprachen   =   Compiler uebersetzt Programmcode in plattformunabhaengigen Zwischencode,
+                                sog. Bytecode oder Intermediate Language.
+                                Ein plattformspezifischer Interpreter liest den Bytecode ein und fuehrt diesen
+                                in einer virtuellen Maschine aus.
+                                Der Bytecode sorgt dafuer, dass das Programm nicht mehr (Menschen-)lesbar ist.
+                                (Java, C#, ...)
+                                (HelloWorld.java    ->  HelloWorld.class)
+017.    Java    =   erste plattformunabhaengige, objektorientierte Sprache (fuer Windows, MacOS, Linux, Unix, ...)
+                    entwickelt von James Gosling, Bill Joy, Patrik Naughton, u.a.
+                    relativ moderne Sprache
+                    relativ sauberes Sprachkonzept
+                    teilweise recht kompliziert und technisch
+                    grosse Paketvielfalt
+                    viele Bibliotheken
+                    sicherer als andere Sprachen
+                    plattformunabhaengig durch JVM
+018.    Entwicklungsumgebung    =   IntelliJ, PyCharm, Visual Studio Code, Eclipse, Texteditor + Konsole, ...
