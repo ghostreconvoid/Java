@@ -1,0 +1,34 @@
+001.    Variable    =   the name that you give to a specific address in memory where you can store a value
+                        (It must be decleared and initialized.)
+002.    Local Variables  =   Variables declared within a method block { }
+                            (Local variables are only used inside the method block and are automatically removed
+                             from memory when the method finishes running.)
+003.    8 Primitive Types   =   Java provides 8 primitive types for integers, real numbers, and logical values.
+                    type    value saved     memory used         area of allowed values
+            (i)     byte    integer         1 Byte = 8 Bit      (-2^7)  -   (2^7 - 1)
+            (ii)    char    integer         2 Byte = 16 Bit     (0)     -   (2^16 - 1)
+            (iii)   short   integer         2 Byte = 16 Bit     (-2^15) -   (2^15 - 1)
+            (iv)    int     integer         4 Byte = 32 Bit     (-2^31) -   (2^31 - 1)
+            (v)     long    integer         8 Byte = 64 Bit     (-2^63) -   (2^63 - 1)
+            (vi)    float   real number     4 Byte = 32 Bit     (+/-) ((1.4 x 10^(-45)) - (3.4 x 10^38)) and 0
+            (vii)   double  real number     8 Byte = 64 Bit     (+/-) ((4.9 x 10^(-324)) - (1.8 x 10^308)) and 0
+            (viii)  boolean logical value   1 Byte              true / false
+004.    Literal =   the value entered directly by the programmer in the source code
+            (i) 2^ : begin with 0b or 0B
+            (ii)    8^ : begin with 0
+            (iii)   10^ :
+            (iv)    16^ : begin with 0x or 0X
+            (v)     e   : 5e2 = 5.0 x 10^2 = 500.0
+            (vi)    E   : 0.12E-2   =   0.12 x 10^(-2)  = 0.0012
+005.    Unicode :   an international standardization convention that maps characters from around the world
+                    to numbers (0 to 65535) that can be represented in 2 bytes
+006.    String  :   a set of characters enclosed in double quotes " " in Java
+007.    Escape  :   a backslash (\) inside a string
+            (i) \"  :   print "
+            (ii)    \n  :   new line
+            (iii)   \t  :   tab distance
+            (iv)    \'  :   print '
+            (v)    \\  :    print \
+            (vi)    \u16^  :    print the character that matches to 16^ unicode
+
+
